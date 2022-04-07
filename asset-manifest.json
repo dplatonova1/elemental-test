@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/elemental-test/static/css/main.8a63ab20.css",
+    "main.js": "/elemental-test/static/js/main.795af4a5.js",
+    "static/media/revenues.png": "/elemental-test/static/media/revenues.067e238e4a01afda53ed.png",
+    "static/media/plane.svg": "/elemental-test/static/media/plane.1f0ed07337b645b13afbfbfa1a6f9376.svg",
+    "index.html": "/elemental-test/index.html",
+    "main.8a63ab20.css.map": "/elemental-test/static/css/main.8a63ab20.css.map",
+    "main.795af4a5.js.map": "/elemental-test/static/js/main.795af4a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a63ab20.css",
+    "static/js/main.795af4a5.js"
+  ]
+}
