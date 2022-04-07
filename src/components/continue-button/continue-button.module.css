@@ -1,0 +1,22 @@
+.button {
+  font-weight: 600;
+  font-size: 24px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 9px;
+  border: none;
+  align-self: flex-end;
+  margin-bottom: 38px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .button {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px;
+  }
+}
