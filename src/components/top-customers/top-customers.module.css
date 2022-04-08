@@ -1,7 +1,6 @@
 .container {
-  width: 100%;
-  height: 100%;
-  background-color: var(--light-green);
+  width: min(90%, 127.5rem);
+  margin-inline: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,13 +8,16 @@
 }
 
 .title {
-  font-size: 64px;
+  font-size: 4rem;
+  line-height: 1.5;
   font-weight: 700;
   color: var(--deep-green);
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .icon {
+  width: 12.875rem;
+  height: 15.313rem;
   color: var(--green);
 }
 
@@ -30,7 +32,7 @@
 .wrap {
   display: flex;
   justify-content: space-between;
-  width: 90vw;
+  width: 100%;
 }
 
 .cards {
@@ -38,24 +40,27 @@
 }
 
 .card {
-  width: 425px;
-  height: 325px;
-  padding: 22px 24px;
+  width: 26.563rem;
+  height: 20.313rem;
+  padding: 1.375rem 1.5rem;
   border: dashed 3px var(--deep-green);
-  margin-right: 35px;
+  margin-right: 2.188rem;
   display: grid;
-  grid-template-rows: 3fr 65px;
-  grid-row-gap: 30px;
+  grid-template-rows: 3fr 4rem;
+  grid-row-gap: 1.875rem;
 }
 
 .cardTitle {
   font-weight: 600;
-  font-size: 23px;
-  line-height: 28px;
+  font-size: 1.43rem;
+  line-height: 1.5;
   color: var(--deep-green);
   background-color: #fff;
-  padding: 18px;
+  padding: 1.125rem;
   text-align: center;
+  vertical-align: middle;
+  flex-grow: 0;
+  overflow: hidden;
 }
 
 .cardContents {
@@ -63,6 +68,8 @@
   background-color: #fff;
   overflow: hidden;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cardImage {
@@ -75,70 +82,18 @@
 
 .revenue {
   background-image: url("../icons/revenues.png");
+  background-size: contain;
   height: 100%;
   width: 100%;
-  object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .customers {
   background-image: url("../icons/customers.png");
-  height: 100%;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-@media (max-width: 1440px) {
-  .title {
-    font-size: 48px;
-    font-weight: 700;
-    color: var(--deep-green);
-    margin-bottom: 24px;
-  }
-  .card {
-    width: 325px;
-    height: 225px;
-    padding: 12px 14px;
-    border: dashed 3px var(--deep-green);
-    margin-right: 25px;
-  }
-  .cardTitle {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--deep-green);
-    background-color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  .icon {
-    height: 80%;
-  }
-}
-
-@media (max-width: 1024px) {
-  .title {
-    font-size: 48px;
-    font-weight: 700;
-    color: var(--deep-green);
-    margin-bottom: 24px;
-  }
-  .card {
-    width: 225px;
-    height: 125px;
-    padding: 12px 14px;
-    border: dashed 3px var(--deep-green);
-    margin-right: 25px;
-  }
-  .cardTitle {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--deep-green);
-    background-color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
+  height: 95%;
+  width: 95%;
+  background-repeat: space;
+  background-position: center center;
+  background-size: contain;
 }

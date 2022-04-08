@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./App.module.css";
-import Report from "./components/report";
+import Report from "./components/report/report";
 
 function App() {
   return (
