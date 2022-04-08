@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/elemental-test/static/css/main.8a63ab20.css",
-    "main.js": "/elemental-test/static/js/main.795af4a5.js",
+    "main.css": "/elemental-test/static/css/main.32da7a0e.css",
+    "main.js": "/elemental-test/static/js/main.9bdaf129.js",
     "static/media/revenues.png": "/elemental-test/static/media/revenues.067e238e4a01afda53ed.png",
-    "static/media/plane.svg": "/elemental-test/static/media/plane.1f0ed07337b645b13afbfbfa1a6f9376.svg",
+    "static/media/plane.svg": "/elemental-test/static/media/plane.2243f5ed322ee339a95f3f31a96ca9da.svg",
     "index.html": "/elemental-test/index.html",
-    "main.8a63ab20.css.map": "/elemental-test/static/css/main.8a63ab20.css.map",
-    "main.795af4a5.js.map": "/elemental-test/static/js/main.795af4a5.js.map"
+    "main.32da7a0e.css.map": "/elemental-test/static/css/main.32da7a0e.css.map",
+    "main.9bdaf129.js.map": "/elemental-test/static/js/main.9bdaf129.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a63ab20.css",
-    "static/js/main.795af4a5.js"
+    "static/css/main.32da7a0e.css",
+    "static/js/main.9bdaf129.js"
   ]
 }
